@@ -10,7 +10,7 @@ export default function Dates() {
         <div class="card-body">
           <h5 class="card-title">Important dates</h5>
           <p class="card-text">
-            The last date for full length submission 25.09.21 
+            The last date for full length submission 15.10.21 
             <hr />
             Notification of acceptance 30.10.21 
             <hr />

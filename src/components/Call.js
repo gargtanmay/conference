@@ -4,36 +4,25 @@ export default function Call() {
   return (
     <div>
       <br />
-      <div class="card" style={{padding:"10px"}}>
+      <div class="card" style={{ padding: "10px" }}>
         <div class="card-body">
           <h5 class="card-title">Call for Papers</h5>
-          <p class="card-text">
-            Prospective authors are invited to submit their manuscripts
-            reporting original research and recent developments in the topics
-            related to the convention. Paper submission will be through
-            easychair Prospective authors can upload the soft copy of their
-            manuscript after registering at easychair. The papers will be peer
-            reviewed and only the accepted papers will be considered for
-            presentation during the convention and publication in the
-            proceedings. Acceptance of a full-length submission is strictly
-            based on the reviewers’ comments. 
-            <br />
-            All submissions need to be
-            submitted through the easechair using the link:
-            <br />
-            <a href="https://easychair.org/conferences/?conf=ncefes2021">
-              https://easychair.org/conferences/?conf=ncefes2021
-            </a>
-            <br />
-            At least one of the authors of an accepted paper needs to register
-            for the convention and to present the paper through online/physical
-            mode presentation. All manuscript should be prepared in the
-            Springer’s Book Chapter template.
+          <p class="card-text" style={{textAlign: "justify"}}>
+            The NCEFES 2021 aims to bring the researchers, academicians,
+            industry, and government personnel together to share and discuss the
+            various aspects of Computational Intelligence. The convention will
+            witness multiple eminent keynote speakers from academia and industry
+            from all over the world along with the presentation of accepted
+            peer-reviewed articles. The after-conference proceeding of the
+            NCEFES 2021 will be published in Springer Book Series.
           </p>
           <br />
-        <p>The topics covered (but are not limited to) in the conference are as follows:</p>
+          <p style={{margin:"0px"}}>
+            The topics covered (but are not limited to) in the conference are as
+            follows:
+          </p>
         </div>
-        
+
         <table className="table table-striped table-bordered border-dark">
           <tbody>
             <tr>
@@ -78,6 +67,18 @@ export default function Call() {
             </tr>
           </tbody>
         </table>
+        <p style={{textAlign: "justify"}}>
+          The papers will be considered for possible publication on the
+          understanding that these have not been submitted to any other
+          publisher. The copyright of papers accepted for publication lies with
+          The Institution of Engineers (India) and reproduction of the papers or
+          any part thereof is not allowed without the permission of the
+          Institution. Contributors are required to sign a Declaration Form as
+          enclosed to this effect while submitting their papers. As per Bye-Law
+          118 of IEI, Copyright of each paper published in Institution Journals
+          or Proceedings in full or in Abstract at its Centers shall lie with
+          the Institution.
+        </p>
       </div>
       <br />
     </div>
