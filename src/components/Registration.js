@@ -17,8 +17,8 @@ export default function Registration() {
             <ul>
               <li>
                 Beneficiary Name: The Institution of Engineers (India), Jodhpur
-                Bank of Baroda,University Campus Branch, Jodhpur
               </li>
+              <li>Bank of Baroda: University Campus Branch, Jodhpur</li>
               <li>Account No.: 05710100000119 </li>
               <li>IFSC Code: BARB0UNIJOD (Fifth character is numeric Zero)</li>
             </ul>
