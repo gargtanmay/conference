@@ -20,7 +20,7 @@ export default function Submit() {
               NOTE : Acceptance of a full-length submission is strictly based on
               the reviewers’ comments.
             </h6>
-            All submissions need to be submitted through the easechair using the
+            All submissions need to be submitted through the easychair using the
             link:
             <br />
             <a href="https://easychair.org/conferences/?conf=ncefes2021">

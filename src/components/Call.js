@@ -10,7 +10,7 @@ export default function Call() {
           <p class="card-text" style={{textAlign: "justify"}}>
             The NCEFES 2021 aims to bring the researchers, academicians,
             industry, and government personnel together to share and discuss the
-            various aspects of Computational Intelligence. The convention will
+            various aspects of Future Electricity Systems. The convention will
             witness multiple eminent keynote speakers from academia and industry
             from all over the world along with the presentation of accepted
             peer-reviewed articles. The after-conference proceeding of the
