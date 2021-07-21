@@ -11,6 +11,11 @@ import img1 from "./images/download.png";
 import img2 from "./images/M.B.M._Engineering_College_-_Logo.png";
 import img3 from "./images/pexels-photo-1292464.jpeg";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Registration from "./components/Registration";
+import Tc from './components/Tc';
+import Nac from './components/Nac';
+import Oc from './components/Oc';
+import Pc from './components/Pc';
 
 function App() {
   return (
@@ -118,9 +123,10 @@ function App() {
           className="row"
           style={{
             padding: "20px",
-            height: "1000px",
-            backgroundColor: "#0095d9",
-            backgroundImage: `url(${img3})`,
+            //height: "1600px",
+            minHeight:"500px",
+            backgroundColor: "#8d5a7b",
+            //backgroundImage: `url(${img3})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
           }}
@@ -142,6 +148,22 @@ function App() {
               <Route path="/call">
                 <Call />
               </Route>
+              <Route path="/registration">
+                <Registration />
+              </Route>
+              <Route path="/NAC">
+                <Nac />
+              </Route>
+              <Route path="/TC">
+                <Tc />
+              </Route>
+              <Route path="/PC">
+                <Pc />
+              </Route>
+              <Route path="/OC">
+                <Oc />
+              </Route>
+
             </div>
           </Switch>
           <div className="col-2">
@@ -166,29 +188,29 @@ function App() {
                       style={{ padding: "10px" }}
                     >
                       <li >
-                        <a className="dropdown-item" href="#">
+                      <Link to="/NAC" > <a className="dropdown-item" href="#">
                           National Advisory Committee
-                        </a>
+                        </a></Link>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                      <Link to="/TC" >  <a className="dropdown-item" href="#">
                           Technical Committee
-                        </a>
+                        </a></Link>
                       </li>
                       <li >
-                        <a className="dropdown-item" href="#">
+                      <Link to="/PC">  <a className="dropdown-item" href="#">
                           Publication Committee
-                        </a>
+                        </a></Link>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                      <Link to="/OC" ><a className="dropdown-item" href="#">
                           Organizing Committee
-                        </a>
+                        </a></Link>
                       </li>
                     </ul>
                   </div>
                 <br />
-                <button type="button" class="btn btn-secondary">Registraion</button>
+                <Link to="/registration"><button type="button" class="btn btn-secondary">Registraion</button></Link>
                 
                 </p>
               </div>
