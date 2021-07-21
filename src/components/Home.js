@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <br />
       <div className="row">
-        <div className="col-5">
+        <div className="col col-lg-5 col-xs-12">
           <div className="card">
             <div className="card-body">
               <h4 className="card-title">Latest News</h4>
@@ -51,7 +51,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="col-7">
+        <div className="col col-lg-7 col-xs-12">
           <div class="card">
             <div class="card-body">
               

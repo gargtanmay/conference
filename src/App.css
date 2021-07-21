@@ -6,13 +6,36 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.card{
+  box-shadow: 7px 7px 7px rgb(0,0,0,0.5);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+@media screen and (max-width: 500px) {
+  .para{
+    font-size: 13px;
+  }
+  .para1{
+    font-size: 11px;
+  }
+  .img{
+    display: none;
+  }
+}
+@media screen and (min-width: 500px) {
+  .para{
+    font-size: 22px;
+  }
+  .para1{
+    font-size: 18px;
+  }
+  .img{
+    display: inline;
+  }
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -12,15 +12,16 @@ import img2 from "./images/M.B.M._Engineering_College_-_Logo.png";
 import img3 from "./images/pexels-photo-1292464.jpeg";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Registration from "./components/Registration";
-import Tc from './components/Tc';
-import Nac from './components/Nac';
-import Oc from './components/Oc';
-import Pc from './components/Pc';
+import Tc from "./components/Tc";
+import Nac from "./components/Nac";
+import Oc from "./components/Oc";
+import Pc from "./components/Pc";
 
 function App() {
   return (
     <Router>
       <div style={{ overflowX: "hidden" }}>
+      <div class="card">
         <div
           style={{
             display: "flex",
@@ -31,15 +32,21 @@ function App() {
             color: "black",
           }}
         >
-          <img src={img} alt="" style={{ height: "100px", width: "100px" }} />
+          <img
+            src={img}
+            class="img"
+            alt=""
+            style={{ height: "100px", width: "100px" }}
+          />
 
           <div>
             <p
+            class='para'
               style={{
                 textAlign: "center",
                 width: "700px",
                 fontWeight: "bold",
-                fontSize: "22px",
+                
                 margin: "0px",
               }}
             >
@@ -50,11 +57,12 @@ function App() {
               "Future Electricity Systems: Challenges and Current Trends"
             </p>
             <p
+            class='para1'
               style={{
                 textAlign: "center",
                 width: "700px",
 
-                fontSize: "18px",
+                
                 margin: "0px",
               }}
             >
@@ -70,11 +78,34 @@ function App() {
               <b> MBM Engineering College, Jodhpur </b>
             </p>
           </div>
-          <img src={img1} alt="" style={{ height: "100px", width: "100px" }} />
-          <img src={img2} alt="" style={{ height: "100px", width: "100px" }} />
+          <img
+            src={img1}
+            class="img"
+            alt=""
+            style={{ height: "100px", width: "100px" }}
+          />
+          <img
+            src={img2}
+            class="img"
+            alt=""
+            style={{ height: "100px", width: "100px" }}
+          />
+        </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
               <li class="nav-item">
                 <Link to="/" style={{ textDecoration: "none" }}>
@@ -117,6 +148,7 @@ function App() {
               </li>
             </ul>
           </div>
+          </div>
         </nav>
 
         <div
@@ -124,7 +156,7 @@ function App() {
           style={{
             padding: "20px",
             //height: "1600px",
-            minHeight:"500px",
+            minHeight: "500px",
             backgroundColor: "#8d5a7b",
             //backgroundImage: `url(${img3})`,
             backgroundRepeat: "no-repeat",
@@ -132,7 +164,7 @@ function App() {
           }}
         >
           <Switch>
-            <div className="col-9">
+            <div className="col col-lg-9 col-sm-12">
               <Route exact path="/">
                 <Home />
               </Route>
@@ -163,16 +195,16 @@ function App() {
               <Route path="/OC">
                 <Oc />
               </Route>
-
             </div>
           </Switch>
-          <div className="col-2">
+          <div className="col col-lg-2 col-sm-6">
             <br />
             <div className="card">
               <div className="card-body">
                 <p className="card-text">
                   <div className="dropdown">
-                    <a className="btn btn-secondary dropdown-toggle"
+                    <a
+                      className="btn btn-secondary dropdown-toggle"
                       href="#"
                       role="button"
                       id="dropdownMenuLink"
@@ -187,31 +219,45 @@ function App() {
                       aria-labelledby="dropdownMenuLink"
                       style={{ padding: "10px" }}
                     >
-                      <li >
-                      <Link to="/NAC" > <a className="dropdown-item" href="#">
-                          National Advisory Committee
-                        </a></Link>
+                      <li>
+                        <Link to="/NAC">
+                          {" "}
+                          <a className="dropdown-item" href="#">
+                            National Advisory Committee
+                          </a>
+                        </Link>
                       </li>
                       <li>
-                      <Link to="/TC" >  <a className="dropdown-item" href="#">
-                          Technical Committee
-                        </a></Link>
-                      </li>
-                      <li >
-                      <Link to="/PC">  <a className="dropdown-item" href="#">
-                          Publication Committee
-                        </a></Link>
+                        <Link to="/TC">
+                          {" "}
+                          <a className="dropdown-item" href="#">
+                            Technical Committee
+                          </a>
+                        </Link>
                       </li>
                       <li>
-                      <Link to="/OC" ><a className="dropdown-item" href="#">
-                          Organizing Committee
-                        </a></Link>
+                        <Link to="/PC">
+                          {" "}
+                          <a className="dropdown-item" href="#">
+                            Publication Committee
+                          </a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/OC">
+                          <a className="dropdown-item" href="#">
+                            Organizing Committee
+                          </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
-                <br />
-                <Link to="/registration"><button type="button" class="btn btn-secondary">Registraion</button></Link>
-                
+                  <br />
+                  <Link to="/registration">
+                    <button type="button" class="btn btn-secondary">
+                      Registraion
+                    </button>
+                  </Link>
                 </p>
               </div>
             </div>

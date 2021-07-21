@@ -22,7 +22,7 @@ export default function Call() {
             follows:
           </p>
         </div>
-
+      <div className="table-responsive">
         <table className="table table-striped table-bordered border-dark">
           <tbody>
             <tr>
@@ -67,6 +67,7 @@ export default function Call() {
             </tr>
           </tbody>
         </table>
+        </div>
         <p style={{textAlign: "justify"}}>
           The papers will be considered for possible publication on the
           understanding that these have not been submitted to any other

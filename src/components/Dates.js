@@ -2,10 +2,7 @@ import React from "react";
 
 export default function Dates() {
   return (
-    <div className="row" style={{ height:"100vh"}}>
-        <div className="col-3"></div>
-        <div className="col-7">
-        <br />
+    <div>
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Important dates</h5>
@@ -19,8 +16,8 @@ export default function Dates() {
             Convention dates 27.11.21 and 28.11.21
           </p>
         </div>
-      </div>
-      </div>
-    </div>
+        </div>
+        </div>
+      
   );
 }
