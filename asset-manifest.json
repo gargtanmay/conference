@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a617e044.chunk.css",
-    "main.js": "/static/js/main.35a20cff.chunk.js",
-    "main.js.map": "/static/js/main.35a20cff.chunk.js.map",
+    "main.js": "/static/js/main.298cc70b.chunk.js",
+    "main.js.map": "/static/js/main.298cc70b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.88aa9066.js",
     "runtime-main.js.map": "/static/js/runtime-main.88aa9066.js.map",
     "static/js/2.9c0aaefe.chunk.js": "/static/js/2.9c0aaefe.chunk.js",
@@ -13,13 +13,17 @@
     "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
     "static/js/2.9c0aaefe.chunk.js.LICENSE.txt": "/static/js/2.9c0aaefe.chunk.js.LICENSE.txt",
     "static/media/1200px-Institution_of_Engineers_(India)_Logo.svg.e3e4894f.png": "/static/media/1200px-Institution_of_Engineers_(India)_Logo.svg.e3e4894f.png",
+    "static/media/LatexTemplate.da2ccd3e.zip": "/static/media/LatexTemplate.da2ccd3e.zip",
     "static/media/M.B.M._Engineering_College_-_Logo.f55de3ab.png": "/static/media/M.B.M._Engineering_College_-_Logo.f55de3ab.png",
-    "static/media/download.5397fc42.png": "/static/media/download.5397fc42.png"
+    "static/media/Word Template.dc214ebd.zip": "/static/media/Word Template.dc214ebd.zip",
+    "static/media/download.5397fc42.png": "/static/media/download.5397fc42.png",
+    "static/media/pexels-photo-1292464.065e5c06.jpeg": "/static/media/pexels-photo-1292464.065e5c06.jpeg",
+    "static/media/solar.e86278d3.jpg": "/static/media/solar.e86278d3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.88aa9066.js",
     "static/js/2.9c0aaefe.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.35a20cff.chunk.js"
+    "static/js/main.298cc70b.chunk.js"
   ]
 }
