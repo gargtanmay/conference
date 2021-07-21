@@ -5,7 +5,29 @@ export default function Home() {
         <div>
             <br />            
             <div className="row">
-                <div className="col-9">
+            <div className="col-5">
+            <div className="card" >
+                        <div className="card-body">
+                            <h4 className="card-title" >Latest News</h4>
+                            <br />
+                            <h6 className="card-subtitle mb-2">Important Dates</h6>
+                            <p className="card-text">
+
+                                <div className="list-group" style={{fontSize:"13px"}}>
+                                    <a href="#" className="list-group-item list-group-item-action">The last date for full length submission 25.09.21 </a>
+                                    <a href="#" className="list-group-item list-group-item-action">Notification of acceptance 30.10.21 </a>
+                                    <a href="#" className="list-group-item list-group-item-action">Registration of accepted papers without late fees 10.11.21 </a>
+                                    <a href="#" className="list-group-item list-group-item-action">Convention dates 27.11.21 and 28.11.21 </a>
+
+                                </div>
+                            </p>
+                            <h6 className="card-subtitle mb-2 " style={{display:"inline"}} >Paper Submission               </h6>
+                            <a href="https://easychair.org/conferences/?conf=ncefes2021" className="card-link" >Link</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div className="col-7">
                     <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" >
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -33,38 +55,13 @@ export default function Home() {
                         </button>
                     </div>
                 </div>
-                <div className="col-3">
-                    <div className="card">
-                        <div className="card-body">
-                            <h3 className="card-title">About</h3>
-                            <br />
-                        </div>
-                    </div>
-                </div>
+                
                 
             </div>
             <br />
             <div className="row">
                 <div className='col-6'>
-                    <div className="card" >
-                        <div className="card-body">
-                            <h3 className="card-title" >Latest News</h3>
-                            <br />
-                            <h6 className="card-subtitle mb-2">Important Dates</h6>
-                            <p className="card-text">
-
-                                <div className="list-group">
-                                    <a href="#" className="list-group-item list-group-item-action">Last date of Full-length Submission: August 25, 2021</a>
-                                    <a href="#" className="list-group-item list-group-item-action">Notification of acceptance: September 30, 2021</a>
-                                    <a href="#" className="list-group-item list-group-item-action">Conference Date: October 23-24, 2021</a>
-
-                                </div>
-                            </p>
-                            <h6 className="card-subtitle mb-2 " >Paper Submission</h6>
-                            <a href="#" className="card-link" >Link</a>
-
-                        </div>
-                    </div>
+                    
                 </div>
                 <div className="col-6">
                     <div className="card" >
