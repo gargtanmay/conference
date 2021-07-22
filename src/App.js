@@ -19,6 +19,8 @@ import Pc from "./components/Pc";
 import Special from "./components/Special";
 import Awards from "./components/Awards";
 import Venue from "./components/Venue";
+import Keynote from "./components/Keynote";
+import Schedule from "./components/Schedule";
 
 
 function App() {
@@ -207,6 +209,12 @@ function App() {
               <Route path="/special">
                 <Special />
               </Route>
+              <Route path="/keynote">
+                <Keynote />
+              </Route>
+              <Route path="/schedule">
+                <Schedule />
+              </Route>
               <Route path="/awards">
                 <Awards />
               </Route>
@@ -287,6 +295,20 @@ function App() {
                   <Link to="/awards">
                     <button type="button" class="btn btn-secondary" style={{width:"130px"}}>
                       Awards
+                    </button>
+                  </Link>
+                  <br />
+                  <br />
+                  <Link to="/schedule">
+                    <button type="button" class="btn btn-secondary" style={{width:"130px"}}>
+                      Schedule
+                    </button>
+                  </Link>
+                  <br />
+                  <br />
+                  <Link to="/keynote">
+                    <button type="button" class="btn btn-secondary" style={{width:"130px"}}>
+                      Keynote Speakers
                     </button>
                   </Link>
                 </p>
