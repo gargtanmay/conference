@@ -5,7 +5,7 @@ export default function Registration() {
     <div>
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">REGISTRATION & PAYMENTS</h5>
+          <h5 class="card-title">Registration & Payments</h5>
           <p class="card-text">
             All payments are to be made through crossed Demand Draft / Cheque /
             NEFT/ Online Net Banking Transfer In favour of “The Institution of

@@ -16,6 +16,9 @@ import Tc from "./components/Tc";
 import Nac from "./components/Nac";
 import Oc from "./components/Oc";
 import Pc from "./components/Pc";
+import Special from "./components/Special";
+import Awards from "./components/Awards";
+
 
 function App() {
   return (
@@ -164,7 +167,7 @@ function App() {
           }}
         >
           <Switch>
-            <div className="col col-lg-9 col-sm-12">
+            <div className="col col-lg-9 col-md-12 col-xs-12">
               <Route exact path="/">
                 <Home />
               </Route>
@@ -195,9 +198,15 @@ function App() {
               <Route path="/OC">
                 <Oc />
               </Route>
+              <Route path="/special">
+                <Special />
+              </Route>
+              <Route path="/awards">
+                <Awards />
+              </Route>
             </div>
           </Switch>
-          <div className="col col-lg-2 col-sm-6">
+          <div className="col col-lg-2 col-md-12 col-xs-12">
             <br />
             <div className="card">
               <div className="card-body">
@@ -210,6 +219,7 @@ function App() {
                       id="dropdownMenuLink"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
+                      style={{width:"130px"}}
                     >
                       Committees
                     </a>
@@ -254,8 +264,23 @@ function App() {
                   </div>
                   <br />
                   <Link to="/registration">
-                    <button type="button" class="btn btn-secondary">
-                      Registraion
+                    <button type="button" class="btn btn-secondary" style={{width:"130px"}}>
+                      Registration
+                    </button>
+                  </Link>
+                  <br />
+                  <br />
+                  <Link to="/special">
+                    <button type="button" class="btn btn-secondary" style={{width:"130px"}}>
+                      Special Tracks
+                    </button>
+                  </Link>
+                  
+                  <br />
+                  <br />
+                  <Link to="/awards">
+                    <button type="button" class="btn btn-secondary" style={{width:"130px"}}>
+                      Awards
                     </button>
                   </Link>
                 </p>
