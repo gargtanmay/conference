@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Venue() {
   return (
-    <div style={{display:"flex", justifyContent:"center"}}>
-      <div class="card" style={{width:"50%"}}>
+    <div >
+      <div class="card" >
         <div class="card-body">
           <h4 class="card-title" style={{ borderBottom:"1px solid black"}}>Venue</h4>
           <br />
