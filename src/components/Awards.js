@@ -2,15 +2,28 @@ import React from "react";
 
 export default function Awards() {
   return (
-    <div>
-      <div>
-        <div class="card">
+    
+      <div style={{display:"flex", justifyContent:"center"}}>
+        <div class="card" style={{width:"70%"}}>
           <div class="card-body">
-            <h5 class="card-title">Awards</h5>
-            <p class="card-text">To Be Announced...</p>
+            <h4 class="card-title" style={{ borderBottom:"1px solid black"}}>Awards</h4>
+            <br />
+            <h5 class="card-title">1. Best Session</h5>
+            <p class="card-text" style={{textAlign: "justify"}}>
+              Best session award: Institution of Engineers (India), Jodhpur Local Center,
+              will facilitate the awardee with a Gift Voucher and an
+              appreciation certificate.
+            </p>
+            <br />
+            <h5 class="card-title">2. Best Paper (Track Wise)</h5>
+            <p class="card-text" style={{textAlign: "justify"}}>
+              Best Paper award: Institution of Engineers (India), Jodhpur Local Center,
+              will facilitate the awardee with a Gift Voucher and an
+              appreciation certificate.
+            </p>
           </div>
         </div>
       </div>
-    </div>
+    
   );
 }

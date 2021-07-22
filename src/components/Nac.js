@@ -147,7 +147,7 @@ export default function Nac() {
                 </tr>
                 <tr>
                   <td></td>
-                  <td>Dr Sandeep Kumar Yadav, Professor, IIT Jodhpur</td>
+                  <td>Dr Sandeep Kumar Yadav, IIT Jodhpur</td>
                 </tr>
                 <tr>
                   <td></td>

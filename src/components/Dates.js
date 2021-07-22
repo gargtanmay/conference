@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Dates() {
   return (
-    <div>
-      <div class="card">
+    <div style={{display:"flex", justifyContent:"center"}}>
+      <div class="card" style={{width:"60%"}}>
         <div class="card-body">
           <h5 class="card-title">Important dates</h5>
           <p class="card-text">

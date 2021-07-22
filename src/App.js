@@ -18,6 +18,7 @@ import Oc from "./components/Oc";
 import Pc from "./components/Pc";
 import Special from "./components/Special";
 import Awards from "./components/Awards";
+import Venue from "./components/Venue";
 
 
 function App() {
@@ -136,11 +137,13 @@ function App() {
                   </a>
                 </Link>
               </li>
+              <Link to="/venue" style={{ textDecoration: "none" }}>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
                   Venue
                 </a>
               </li>
+              </Link>
 
               <li class="nav-item">
                 <Link to="/contact" style={{ textDecoration: "none" }}>
@@ -185,6 +188,9 @@ function App() {
               </Route>
               <Route path="/registration">
                 <Registration />
+              </Route>
+              <Route path="/venue">
+                <Venue />
               </Route>
               <Route path="/NAC">
                 <Nac />

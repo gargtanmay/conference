@@ -33,7 +33,7 @@ export default function Pc() {
 
                 <tr>
                   <td></td>
-                  <td>Dr Neerja Gupta, Oakland University, MI, USA</td>
+                  <td>Dr Neeraj Gupta, Oakland University, MI, USA</td>
                 </tr>
               </tbody>
             </table>
