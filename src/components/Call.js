@@ -19,7 +19,7 @@ export default function Call() {
           <br />
           <p style={{margin:"0px"}}>
             The topics covered (but are not limited to) in the conference are as
-            follows::
+            follows:::
           </p>
         </div>
       <div className="table-responsive">
