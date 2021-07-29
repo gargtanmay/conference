@@ -235,7 +235,7 @@ function App() {
                       aria-expanded="false"
                       style={{width:"130px"}}
                     >
-                      Committees
+                      Committeess
                     </a>
 
                     <ul
