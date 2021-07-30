@@ -69,6 +69,14 @@ export default function Oc() {
             <td></td>
             <td>Er A K Singh, MIE, IEI, JLC, Jodhpur</td>
           </tr>
+          <tr>
+            <td></td>
+            <td>Dr Emarti Bhaskar, MBM Jodhpur</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Er Abhishek Gaur, MBM Jodhpur</td>
+          </tr>
 
         </tbody>
       </table>

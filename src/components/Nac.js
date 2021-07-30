@@ -166,6 +166,10 @@ export default function Nac() {
                   <td></td>
                   <td>Dr Prerna Jain, MNIT Jaipur</td>
                 </tr>
+                <tr>
+                  <td></td>
+                  <td>Prof.(Dr) Manisha Dubey, MANIT, Bhopal</td>
+                </tr>
               </tbody>
             </table>
           </div>

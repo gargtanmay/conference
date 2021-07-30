@@ -26,8 +26,8 @@ export default function Registration() {
             <thead>
                     <tr>
                   <th>Author Category</th>
-                  <th>Registration Charges upto 10.11.2021</th>
-                  <th>Registration Charges after 10.11.2021</th>
+                  <th>Registration Charges upto 20.11.2021</th>
+                  <th>Registration Charges after 20.11.2021</th>
                   </tr>
                 </thead>
               <tbody>
