@@ -14,7 +14,7 @@ export default function Call() {
             witness multiple eminent keynote speakers from academia and industry
             from all over the world along with the presentation of accepted
             peer-reviewed articles. The after-conference proceeding of the
-            NCEFES 2021 will be published in Springer Book Series.
+            NCEFES 2021 will be published in some reputed journal.
           </p>
           <br />
           <p style={{margin:"0px"}}>
