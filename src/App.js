@@ -58,7 +58,7 @@ function App() {
             >
               36
               <sup>th </sup>
-              National Convention of Electrical Engineers on
+              National Convention of Electrical Engineers and conference on
               <br />
               "Future Electricity Systems: Challenges and Current Trends"
             </p>
