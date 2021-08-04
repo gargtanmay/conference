@@ -17,19 +17,19 @@ export default function Home() {
                     href="#"
                     className="list-group-item list-group-item-action"
                   >
-                    The last date for full length submission 15.10.21{" "}
+                    The last date for full length submission 10.10.21{" "}
                   </a>
                   <a
                     href="#"
                     className="list-group-item list-group-item-action"
                   >
-                    Notification of acceptance 30.10.21{" "}
+                    Notification of acceptance 10.11.21{" "}
                   </a>
                   <a
                     href="#"
                     className="list-group-item list-group-item-action"
                   >
-                    Registration of accepted papers without late fees 10.11.21{" "}
+                    Registration of accepted papers without late fees 20.11.21{" "}
                   </a>
                   <a
                     href="#"

@@ -1,6 +1,5 @@
 import React from "react";
-import Doc from "../download/LatexTemplate.zip";
-import Doc1 from "../download/Word Template.zip";
+import Doc1 from "../download/Paper_Template.docx";
 export default function Submit() {
   return (
     <div>
@@ -33,7 +32,7 @@ export default function Submit() {
             6. The Template of Paper can be downloaded from the link:&nbsp; 
             <br />
             <br />
-            <a href="https://www.ieindia.org/webui/IEI-Activities.aspx#Call_Papers" target="_blank">
+            <a href={Doc1} target="_blank">
               <button className="btn btn-warning" >Template</button>
             </a>
             <br />

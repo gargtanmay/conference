@@ -21,6 +21,7 @@ import Awards from "./components/Awards";
 import Venue from "./components/Venue";
 import Keynote from "./components/Keynote";
 import Schedule from "./components/Schedule";
+import Brochure from "./download/Institution of Engineers  Brochure 2021 mbm DESIGN CHANGE.pdf"
 
 
 function App() {
@@ -277,6 +278,13 @@ function App() {
                     </ul>
                   </div>
                   <br />
+                  
+                  <a href={Brochure} target="_blank">
+                  <button  type="button" class="btn btn-secondary" style={{width:"130px"}}>
+                      Brochure
+                    </button>
+                    </a>
+                  <br /><br />
                   <Link to="/registration">
                     <button type="button" class="btn btn-secondary" style={{width:"130px"}}>
                       Registration
@@ -311,6 +319,7 @@ function App() {
                       Keynote Speakers
                     </button>
                   </Link>
+                  
                 </p>
               </div>
             </div>
